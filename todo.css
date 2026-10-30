@@ -1,0 +1,13 @@
+body {
+	min-height: 100vh;
+}
+
+.todo-card {
+	max-width: 32rem;
+	border: 0;
+	border-radius: 1rem;
+}
+
+.todo-card .card-title {
+	color: #212529;
+}

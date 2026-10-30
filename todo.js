@@ -6,11 +6,12 @@ let ul = document.querySelector("ul");
 
 btn.addEventListener("click", function() {
     let item = document.createElement("li");
+    item.classList.add("list-group-item", "d-flex", "align-items-center");
     item.innerText = inpt.value;
 
     let del = document.createElement("button");
     del.innerText = "Delete";
-    del.classList.add("del");
+    del.classList.add("del", "btn", "btn-outline-danger", "btn-sm", "ms-auto");
 
     ul.appendChild(item);
     item.appendChild(del);
